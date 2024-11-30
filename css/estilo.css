@@ -1,0 +1,145 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: palevioletred;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    padding-right: 20px;
+
+}
+nav a:hover{
+    color: pink;
+}
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    
+}
+.hero{
+    height: 100vh;
+    padding: 40px;
+    margin: 0vh;
+    display: flex;
+    text-align: center;
+    background-color: pink;
+    align-items: center;
+    color: white;
+    
+}
+h1{
+    font-style: italic;
+    
+}
+.hero p{
+    padding: 80px;
+}
+.expe{
+    height: 50vh;
+   padding: 40px;
+    margin: 0vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:black;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.expe h2{
+    margin-bottom: 80px;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #0d0d0d;
+}
+.habi{
+    height: 80vh;
+    padding: 40px;
+    margin: 0vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.habi h2{
+    margin-bottom: 80px;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #0d0d0d;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #fdf8f8;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin: 70px;
+}
+.target{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.proyec{
+    height: 100vh;
+    padding: 10px ;
+
+    background-color: pink;
+}
+.proyec h2{
+    margin-bottom: 80px;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #0d0d0d;
+    text-align: center;
+}
+.contacto{
+    height: 50vh;
+    padding: 40px;
+    margin: 0vh;
+    background-color: pink;
+
+}
+.contacto ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contacto h2{
+    text-align: center;
+    margin-bottom: 80px;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #0d0d0d;
+}
+.contacto a{
+
+        text-decoration: none;
+        font-weight: 600;
+        color: white;
+        padding-right: 20px;
+    
+
+}
+.contacto a:hover{
+    color: rgb(17, 16, 16);
+}
+footer{
+    background-color: palevioletred;
+    padding: 10px;
+    margin: 0vh;
+}
